@@ -61,7 +61,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: static-site
-        path: out/
+        path: dist/
 
     - name: Deploy
       if: success()
