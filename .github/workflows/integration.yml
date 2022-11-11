@@ -12,7 +12,7 @@ jobs:
     needs: deploy
     steps:
       - name: Download site content
-        uses: actions/download-artifacts@v2
+        uses: actions/download-artifact@v2
         with:
           name: static-site
       - name: Archive site content
